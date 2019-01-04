@@ -1,0 +1,36 @@
+
+.optionLine {
+    margin: 0.8em 0;
+}
+
+input[type="number"] {
+    width: 4em;
+}
+
+.button {
+    background-color: #ff4381;
+}
+
+#savedIndicator {
+    display: none;
+    position: fixed;
+    font-size: 1.3em;
+    left: 1em;
+    bottom: 1em;
+    background: #C5E1A5;
+    border: solid 0.3em #8BC34A;
+    padding: 1.2em 2em;
+    animation: zoomIn 0.2s;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
